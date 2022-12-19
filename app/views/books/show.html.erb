@@ -1,0 +1,24 @@
+<p>Book was successfullt updated.</p>
+
+<div class="show_title">
+  
+  <P>
+    <strong>Title:</strong>
+    <%= @book.title %>
+  </p>
+  
+</div> 
+
+
+<div class="show_body">
+  
+  <p>
+    <strong>Body:</strong>
+    <%= @book.body %></p>
+  </p>
+
+</div>
+
+<%= link_to 'Edit', edit_book_path(@book.id) %>
+
+<%= link_to 'Back', books_path(@book.id) %>
