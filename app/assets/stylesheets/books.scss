@@ -6,31 +6,6 @@ main{
   display:flex;
 }
 
-.title{
-  padding:1px 50px 5px;
-  font-weight:bold;
-}
-
-.body{
-  padding:1px 50px 5px;
-  font-weight:bold;
-}
-
-.content{
-  display:flex;
-  font-size:13px;
-}
-
-.content_title,{
-  width:15px;
-  padding:5px 100px 5px 10px;
-}
-
-.content_body{
-  padding:5px 100px 5px 10px;
-  width:15px;
-}
-
 .show,
 .edit,
 .destroy{

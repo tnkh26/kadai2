@@ -1,4 +1,8 @@
-<p>Book was successfullt updated.</p>
+<% if flash[:notice] %>
+<div class="alert" role="alert">
+  <%= notice %>
+</div>
+<% end %>
 
 <div class="show_title">
   
